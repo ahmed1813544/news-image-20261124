@@ -340,7 +340,7 @@ STORIES = [
      "when he becomes king: report."),
 ]
 
-MARKETS = ("MARKETS  |  S&P 500 +4.8%  |  NASDAQ +6.5%  |  NIKKEI -5.1%  |  "
+MARKETS = ("MARKETS  |  S&P 500 +4.7%  |  NASDAQ +6.5%  |  NIKKEI -5.1%  |  "
            "FTSE +1.3%  |  BRENT $86.78 -3.5%  |  GOLD +4.2%  |  "
            "SILVER $42.60 +4.0%  |  BITCOIN $55,150")
 
@@ -375,12 +375,12 @@ def draw_hero(cv, y):
     cv.text(tx, y + 92,
             "NVIDIA REINSTATES ITS CEO 11 DAYS AFTER HE QUIT -", 2, INK)
     cv.text(tx, y + 114,
-            "TRUMP: 'I MADE THE DEAL' - SHARES SOAR 33%", 2, INK)
+            "TRUMP: 'I MADE THE DEAL' - SHARES SOAR 31%", 2, INK)
     cv.text(tx, y + 142,
             "BOARD VOTES UNANIMOUSLY AFTER US GOVERNMENT INPUT -", 1, GREY)
     cv.text(tx, y + 154,
-            "NASDAQ +6%, S&P 500 +4.8% AS THE AI TRADE ROARS BACK", 1, GREY)
-    # right-hand illustration: a green chip, a rising chart, +33% badge
+            "NASDAQ +6.5%, S&P 500 +4.7% AS THE AI TRADE ROARS BACK", 1, GREY)
+    # right-hand illustration: a green chip, a rising chart, +31% badge
     ix, iy = 700, y + 18
     cv.rect(ix, iy, 150, 110, GREEN_DK)
     cv.rect(ix + 6, iy + 6, 138, 98, GREEN)
